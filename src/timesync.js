@@ -306,3 +306,5 @@ export function create(options) {
 
   return timesync;
 }
+
+export default { create }

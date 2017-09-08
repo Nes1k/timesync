@@ -1,6 +1,6 @@
 {
-  "name": "timesync",
-  "version": "0.4.0",
+  "name": "timesync-rn",
+  "version": "0.1.0",
   "description": "Time synchronization between peers",
   "author": "Jos de Jong <wjosdejong@gmail.com> (https://github.com/josdejong)",
   "main": "./lib/timesync.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/enmasseio/timesync.git"
+    "url": "git://github.com/nes1k/timesync.git"
   },
   "dependencies": {
     "body-parser": "^1.11.0",
