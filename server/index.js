@@ -78,6 +78,11 @@ function createRoute (path) {
 exports.requestHandler = function (req, res) {
   debug('request ' + req.method + ' ' + req.url + ' ' + req.method);
 
+  if (req.method == 'OPTIONS') {
+    res.writeHead(200);
+    res.end();
+  }
+  
   if (req.method == 'POST') {
     if (!filename) {
       // a time request
